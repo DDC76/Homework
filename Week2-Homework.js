@@ -1,4 +1,4 @@
-const name = "D's Pizza Place";
+const name = "Dees Pizza Place";
 let numberOfToppings = 10;{
 console.log('"Dees Pizza Place"  "Up to 10 Toppings"');
 // "Dees Pizza Place"
