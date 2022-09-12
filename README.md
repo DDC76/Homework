@@ -1,8 +1,3 @@
-
-// 1 Write your name in a large font
-// 2 Write a subheading about you in a smaller font
-// 3 Create a list that explains your goals for this course
-
 <h1>DEIONNE CARROLL</h1>
 <h3>I am very excited to be apart of this Savvy Coders program!</h3>
 <ul>
