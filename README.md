@@ -1,8 +1,10 @@
-<h1>DEIONNE CARROLL</h1>
-<h3>I am very excited to be apart of this Savvy Coders program!</h3>
-<ul>
-  <li>I will be in attendance in every class!</li>
-  <li>I will complete this program with an amazing Capstone Project!</li>
-  <li>I am looking forward to starting a new career in Web Development!</li>
-</ul>
+<h1>Deionne Carroll</h1>
+<h3>I am going to be great at coding!</h3>
+<li>My Goals</li>
+  <ul>Learn HTML</ul>
+  <ul>Learn CSS</ul>
+  <ul>Learn JavaScript</ul>
+  <ul>Start an awesome new career in Web Developement</ul>
+
+
 
