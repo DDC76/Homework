@@ -6,6 +6,15 @@ body {
   padding: 5px;
 }
 
+.barberImage {
+    width: 200px;
+    border: 10px ridge #f00;
+    background-color: black;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
   background-color: #ffffff;
   padding: 1em;
@@ -14,9 +23,9 @@ h1 {
   font-weight: 600;
 }
 
-nav > ul > li {
+list-of-why > ul > li {
   color: white
-  border: solid 1px;
+  border: solid 2px;
   padding: .33em;
   display: inline-block;
 }
