@@ -1,0 +1,79 @@
+html {
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: flex-start;
+}
+@media screen (max-width: 700px) {
+  *{
+  background-color: burlywood;
+  padding: 2px 3px
+
+  }
+}
+body {
+  text-align: center;
+  font-size: 18px;
+  width: 570px;
+}
+@media (max-width: 700px) {
+  *{
+  background-color: burlywood;
+
+  }
+}
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 8px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box div {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+#bio {
+  justify-content: left;
+}
+#bio > li {
+  text-align: left;
+  padding: 2px;
+}
+@media (max-width: 700px) {
+  *{
+  background-color: burlywood;
+
+  }
+#pro {
+  width: auto;
+}
+#proCareer {
+  align-self: auto;
+  justify-content: ;
+
+}
+#achievements {
+  justify-content: left;
+}
+#achievements > li {
+  text-align: left;
+  padding: 2px;
+}
