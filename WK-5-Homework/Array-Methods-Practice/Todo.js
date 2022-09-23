@@ -1217,5 +1217,7 @@ const user9todos = data.filter(task => task.userId === 9);
 console.log(user9todos);
 
 // then find the number of user 9's incomplete tasks
-const user9incompleteTasks = data.filter(task => task.completed === false);
-console.log(user9incompleteTasks);
+const user9incompleteTasks = user9todos.filter(
+  task => task.completed === false
+);
+console.log(user9incompleteTasks.length);

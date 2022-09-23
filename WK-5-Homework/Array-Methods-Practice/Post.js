@@ -709,7 +709,7 @@ const data = [
   }
 ];
 // create a list of user 5's posts
-const user5post = data.map(userId => userId.body);
+const user5post = data.filter(userId => userId.body === 5);
 console.log(user5post);
 
 // then, create a list of title and body pairs

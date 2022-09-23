@@ -1,16 +1,17 @@
 html {
   background-color: antiquewhite;
 }
+
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   flex-direction: row;
   align-content: flex-start;
 }
 @media screen (max-width: 700px) {
   *{
   background-color: burlywood;
-  padding: 2px 3px
+  padding: 2px
 
   }
 }
@@ -24,13 +25,18 @@ body {
   background-color: burlywood;
 
   }
+  .andrePro {
+    flex-wrap: wrap;
+    width: 500px;
+  }
 }
 h1 {
   font-size: 50px;
 }
 
-img {
-  height: 100%;
+.andreActing {
+  flex-wrap: wrap;
+  width: 500px;
 }
 
 div {
@@ -67,7 +73,7 @@ div {
 }
 #proCareer {
   align-self: auto;
-  justify-content: ;
+  justify-content: center;
 
 }
 #achievements {
