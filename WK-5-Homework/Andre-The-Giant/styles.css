@@ -1,54 +1,70 @@
-html, body{
+html {
     justify-content: center;
-    min-height: 100%;
-    position: relative;
     text-align: center;
+    min-height: 100%;
     background-color: antiquewhite;
 }
+
 @media screen (max-width: 1000px) {
-  *{
+ #flex {
   background-color: burlywood;
-  padding: 2px;
-  display: flex; */
+  padding: 2px 3px 2px 3px;
   }
+  @media screen (max-width: 1000px) {
+      .body {
+        text-align: center;
+
+      }
+    }
+
 
   #top {
     width: auto;
   }
   .introPic {
-      resize: both;
-      border: .5rem black;
-      box-shadow: 0 0 0 2rem gray;
+      flex-wrap: wrap;
+      padding: 5px 3px 5px 3px;
       width: 200px;
       height: 200px;
   }
 
-.container  {
+/* .container  {
   text-align: center;
-  justify-content: left;
+  justify-content: center;
   flex-direction: row;
-}
-@media screen (max-width: 1000px) {
+} */
+@media screen and (max-width: 1000px) {
   .body {
-  align-items: stretch;
-  background-color: burlywood;
-  padding: 2px
-
+    display: flex;
   }
 }
+@media screen and (max-width: 700) {
+  #introPic {
+    display: flex;
+  }
+}
+/* @media screen (max-width: 1000px) {
+  .earlyCareer,
+  .proCareer,
+  .acting {
+    display: flex;
+    flex-wrap: wrap;
+  }
+} */
+
 .body {
   text-align: center;
   font-size: 18px;
-  width: 570px;
+  max-width: 1000px
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   *{
   background-color: burlywood;
 
   }
   .andrePro {
     flex-wrap: wrap;
-    width: 500px;
+    max-width: 500px;
   }
 }
 h1 {
@@ -58,6 +74,7 @@ h1 {
 .andreActing {
   flex-wrap: wrap;
   width: 500px;
+  padding: 2px;
 }
 
 div {
@@ -72,13 +89,12 @@ div {
     float: left;
   }
 
-#bio {
-  justify-content: left;
-}
-#bio > li {
-  text-align: left;
+
+.bio > li {
+  text-align: center;
   padding: 2px;
 }
+
 @media (max-width: 1000px) {
   *{
   background-color: burlywood;
@@ -93,9 +109,9 @@ div {
 
 }
 #achievements {
-  justify-content: left;
+  justify-content: center;
 }
 #achievements > li {
-  text-align: left;
+  text-align: center;
   padding: 2px;
 }
