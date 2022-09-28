@@ -709,9 +709,9 @@ const data = [
   }
 ];
 // create a list of user 5's posts
-const user5post = data.filter(userId => userId.body === 5);
+const user5post = data.filter(body => body.userId === 5);
 console.log(user5post);
 
 // then, create a list of title and body pairs
-const titlePairs = data.map(userId => userId.title.body);
-console.log(titlePairs);
+const titlePairs = user5post.filter(userId => userId.title.body);
+console.log(titlePairs.length);
